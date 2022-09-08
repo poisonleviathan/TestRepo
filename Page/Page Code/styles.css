@@ -1,0 +1,224 @@
+*
+{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+   
+}
+body{
+   
+    border-radius: 5px;
+    border-image: fill;
+}
+section
+{
+   
+    
+    position: relative;
+    width: 100%;
+    width : 100% ;
+    min-height : 100vh ;
+    padding: 100px ;
+    display: flex ;
+    justify-content : space-between;
+    align-items: center ;
+    background-color: white;
+}
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px ;
+    display: flex ;
+    justify-content : space-between;
+    align-items: center ;
+
+
+}
+#Logo{
+   
+    position: relative;
+   
+    
+    width:100px;
+    height:100px;
+    max-width: 100px ; 
+    max-height: 100px;
+    
+  
+}
+header ul{
+    
+    position: relative;
+    display: flex;
+    align-content: space-between;   
+
+}
+header ul li{
+    align-self:center;
+    list-style:none;
+}
+header ul li a{
+    
+    margin-bottom: 10%;
+    
+    color:  rgb(255, 255, 255);
+    font-weight: 545px;
+    margin-left: 40px;
+    text-decoration:none;
+
+}
+
+
+.headImage{
+  max-width: fit-content;
+  max-height: fit-content;
+}
+
+
+
+.HeadContent .HeadText{
+    position: relative;
+    max-width: 600px;
+
+}
+.HeadContent .HeadText h2{
+    color:#8A747C;
+    font-size: 60px;
+    line-height: 110px;
+    font-weight: 300;
+}
+.HeadContent .HeadText h2 span{
+    color:#C17C44;
+    font-size: 60px;
+    line-height: 110px;
+    font-weight:bold;
+    align-content: center;
+    content: '';
+    position: relative;
+    inset: 8px;
+    padding-left: 50%;
+    background:transparent;
+    border: 5px solid white;
+    padding:5px;
+    border-radius: 10px;
+    border-style:ridge;
+    justify-content: flex-end;
+    float:right;
+    border-color: #C17C44;
+
+
+}
+
+#backgroundImage{
+   
+    background-image:url("../Images/Tea_Land.jpg") ;
+    background-size: cover;
+    
+    position:fixed;
+    height: 100vh; 
+       
+}
+/*#bracket1{
+    
+  text-align: left;
+  font-size: 100px;
+}
+#bracket2{
+    
+    text-align: right;
+    font-size: 100px;
+}
+*/
+.TeaHistory{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    position: relative;
+    display: flexbox;
+    background-color: white;
+    justify-content: center;
+   
+   
+}
+.TeaHistory h1{
+    color: #C17C44;
+    font-size: 40px;
+    padding-bottom: 10px;
+    
+}
+
+.TeaHistory p{
+    color: #8A747C;
+    
+    font-size: 24px;
+    white-space: 13;
+    padding-bottom: 5px;
+}
+.TeaHistory span{
+    color: #8A747C;
+    font-size: smaller;
+}
+#Benifists{
+    
+    position: relative;
+    font-size: 50px;
+}
+.card_container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card{
+    color: #C17C44;
+    background-color: white;
+    width: 290px;
+    height: 500px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    
+    text-align: center;
+    border-radius: 50px;
+
+box-shadow:  
+             42px 42px 84px #2c2c2c;
+
+}
+.card p{
+    color: #8A747C;
+    padding-top: 3px;
+
+}
+.card_image{
+    background-color: white ;
+    margin-bottom: 15px;
+    height: 170px;
+    background-size: cover;
+    border-radius: 50px 50px 0 0;
+
+}
+.Cardimg1{
+    background-image: url('../Images/Sub-Images/BlackTea.png');
+    
+}
+.Cardimg2{
+    background-image: url('../Images/Sub-Images/GreenTea.jpg');
+}
+.Cardimg3{
+    background-image: url('../Images/Sub-Images/WhiteTea.png');
+}
+.ShapeDivder {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   
+    line-height: 0;
+    transform: rotate(180deg);
+}
